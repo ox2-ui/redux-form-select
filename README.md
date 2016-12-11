@@ -1,7 +1,7 @@
 # redux-form-select
 ![NPM version](https://img.shields.io/npm/v/@ox2/redux-form-select.svg?style=flat)
 
-Select components from `ox2/select` [package](https://github.com/ox2/) wrapped for `redux-form`.
+Select components from `ox2/select` [package](https://github.com/ox2/select) wrapped for `redux-form`.
 
 ## Installation
 Install using [npm](http://npmjs.com):
