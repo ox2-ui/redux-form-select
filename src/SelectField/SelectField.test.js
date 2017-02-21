@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
-import { storiesOf } from '@kadira/storybook';
+import { shallow, render, mount } from 'enzyme';
 import SelectField from './SelectField';
 
 const Groups = [
@@ -13,19 +14,14 @@ const input = {
   onChange: (value) => console.log('🍇', value), // eslint-disable-line no-console
 };
 
-storiesOf('SelectField', module)
-  .add('single', () => (
+it('renders correctly', () => {
+  const wrapper = mount(
     <SelectField
       input={input}
       options={Groups}
       placeholder={'Select groups'}
     />
-  ))
-  .add('multi', () => (
-    <SelectField
-      input={input}
-      options={Groups}
-      multi={true}
-      simpleValue={true}
-    />
-  ));
+  );
+
+  expect(wrapper).toMatchSnapshot();
+});
