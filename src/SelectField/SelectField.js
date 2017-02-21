@@ -15,10 +15,7 @@ const SelectField = ({ input, ...custom }) => {
 };
 
 SelectField.propTypes = {
-  /**
-   * The css class name of the root element.
-   */
-  className: PropTypes.string,
+  input: PropTypes.object.isRequired,
 };
 
 export default SelectField;
