@@ -56,7 +56,7 @@
     "npm": "^3.0.0"
   },
   "dependencies": {
-    "@ox2/select": "^4.2.0"
+    "@ox2/select": "^4.2.1"
   },
   "jest": {
     "testPathDirs": [

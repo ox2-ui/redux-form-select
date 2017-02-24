@@ -94,7 +94,7 @@ exports[`test renders correctly 1`] = `
           autosize={true}
           backspaceRemoves={true}
           backspaceToRemoveMessage="Press backspace to remove {label}"
-          className="eHKbKP cUiwYK"
+          className="eHKbKP fUPKPg"
           clearAllText="Clear all"
           clearRenderer={[Function]}
           clearValueText="Clear value"
@@ -151,7 +151,7 @@ exports[`test renders correctly 1`] = `
           valueKey="value"
           valueRenderer={[Function]}>
           <div
-            className="Select eHKbKP cUiwYK Select--single is-searchable has-value">
+            className="Select eHKbKP fUPKPg Select--single is-searchable has-value">
             <div
               className="Select-control"
               onKeyDown={[Function]}

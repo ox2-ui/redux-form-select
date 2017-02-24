@@ -128,9 +128,9 @@
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@ox2/scroller/-/scroller-1.2.0.tgz#dc7160200512d2fe1a9a8171f2219dc58102baab"
 
-"@ox2/select@^4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@ox2/select/-/select-4.2.0.tgz#dfaa99048567c60ff3acac78c3542f659cd322a7"
+"@ox2/select@^4.2.1":
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/@ox2/select/-/select-4.2.1.tgz#5106a281052fb24378131d61b94b6fd9791e9d7c"
   dependencies:
     "@ox2/icon" "^1.0.0"
     "@ox2/ui" "^0.8.0"
