@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import Select from '@ox2/select/Select';
+import { default as Select } from '@ox2/select/SelectField';
 
 /**
  * SelectField Component
