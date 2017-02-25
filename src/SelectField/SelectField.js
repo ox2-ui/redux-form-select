@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react';
 import { default as Select } from '@ox2/select/SelectField';
-import WrapperLabel from '@ox2/ui/WrapperLabel';
+import WrapperLabel from '@ox2/forms/WrapperLabel';
+
 /**
  * SelectField Component
  */

@@ -25,3 +25,16 @@ it('renders correctly', () => {
 
   expect(wrapper).toMatchSnapshot();
 });
+
+it('renders with label', () => {
+  const wrapper = mount(
+    <SelectField
+      input={input}
+      label={'My label'}
+      options={Groups}
+      placeholder={'Select groups'}
+    />
+  );
+
+  expect(wrapper).toMatchSnapshot();
+});

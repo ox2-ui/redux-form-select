@@ -107,6 +107,14 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@ox2/button/-/button-1.0.0.tgz#111e4d9ca2eea56f8e467de6b059ec3db2f67a66"
 
+"@ox2/forms@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@ox2/forms/-/forms-0.0.1.tgz#d0d38c3baf9666b7d2e0b15951eb39395ed9afb5"
+  dependencies:
+    "@ox2/button" "^1.0.0"
+    "@ox2/scroller" "^1.2.0"
+    styled-components "^1.4.3"
+
 "@ox2/icon@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@ox2/icon/-/icon-1.0.0.tgz#ea1ac6449dff6a27948c477a3d7b164a83828f42"
@@ -136,19 +144,6 @@
     "@ox2/ui" "^0.8.0"
     react-select "^1.0.0-rc.2"
     styled-components "^1.3.0"
-
-"@ox2/ui@^0.20.0":
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/@ox2/ui/-/ui-0.20.0.tgz#317025778b6e6b35034829ddd88eeca8c906537d"
-  dependencies:
-    "@ox2/button" "^1.0.0"
-    "@ox2/icon" "^1.0.0"
-    "@ox2/image" "^0.0.1"
-    "@ox2/scroller" "^1.2.0"
-    classnames "^2.2.5"
-    immutable "^3.8.1"
-    react-search-input "^0.10.4"
-    styled-components "^1.4.3"
 
 "@ox2/ui@^0.8.0":
   version "0.8.1"

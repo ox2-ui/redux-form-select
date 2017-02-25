@@ -295,3 +295,304 @@ exports[`test renders correctly 1`] = `
   </WrapperLabel>
 </SelectField>
 `;
+
+exports[`test renders with label 1`] = `
+<SelectField
+  input={
+    Object {
+      "onChange": [Function],
+      "value": "speakers",
+    }
+  }
+  label="My label"
+  options={
+    Array [
+      Object {
+        "label": "Speakers",
+        "value": "speakers",
+      },
+      Object {
+        "label": "Attendies",
+        "value": "attendies",
+      },
+      Object {
+        "label": "Moderators",
+        "value": "moderators",
+      },
+    ]
+  }
+  placeholder="Select groups">
+  <WrapperLabel
+    text="My label">
+    <styled.div>
+      <div
+        className="hgoCNT">
+        <styled.div>
+          <div
+            className="eFyCaC">
+            My label
+          </div>
+        </styled.div>
+        <Styled(Select)
+          onUpdate={[Function]}
+          options={
+            Array [
+              Object {
+                "label": "Speakers",
+                "value": "speakers",
+              },
+              Object {
+                "label": "Attendies",
+                "value": "attendies",
+              },
+              Object {
+                "label": "Moderators",
+                "value": "moderators",
+              },
+            ]
+          }
+          placeholder="Select groups"
+          value="speakers">
+          <Select
+            className="ccIWcp"
+            onUpdate={[Function]}
+            options={
+              Array [
+                Object {
+                  "label": "Speakers",
+                  "value": "speakers",
+                },
+                Object {
+                  "label": "Attendies",
+                  "value": "attendies",
+                },
+                Object {
+                  "label": "Moderators",
+                  "value": "moderators",
+                },
+              ]
+            }
+            placeholder="Select groups"
+            value="speakers">
+            <Styled(Select)
+              className="ccIWcp"
+              onChange={[Function]}
+              onUpdate={[Function]}
+              optionRenderer={[Function]}
+              options={
+                Array [
+                  Object {
+                    "label": "Speakers",
+                    "value": "speakers",
+                  },
+                  Object {
+                    "label": "Attendies",
+                    "value": "attendies",
+                  },
+                  Object {
+                    "label": "Moderators",
+                    "value": "moderators",
+                  },
+                ]
+              }
+              placeholder="Select groups"
+              value="speakers"
+              valueRenderer={[Function]}>
+              <Select
+                addLabelText="Add \"{label}\"?"
+                arrowRenderer={[Function]}
+                autosize={true}
+                backspaceRemoves={true}
+                backspaceToRemoveMessage="Press backspace to remove {label}"
+                className="ccIWcp fUPKPg"
+                clearAllText="Clear all"
+                clearRenderer={[Function]}
+                clearValueText="Clear value"
+                clearable={true}
+                deleteRemoves={true}
+                delimiter=","
+                disabled={false}
+                escapeClearsValue={true}
+                filterOptions={[Function]}
+                ignoreAccents={true}
+                ignoreCase={true}
+                inputProps={Object {}}
+                isLoading={false}
+                joinValues={false}
+                labelKey="label"
+                matchPos="any"
+                matchProp="any"
+                menuBuffer={0}
+                menuRenderer={[Function]}
+                multi={false}
+                noResultsText="No results found"
+                onBlurResetsInput={true}
+                onChange={[Function]}
+                onCloseResetsInput={true}
+                onUpdate={[Function]}
+                openAfterFocus={false}
+                optionComponent={[Function]}
+                optionRenderer={[Function]}
+                options={
+                  Array [
+                    Object {
+                      "label": "Speakers",
+                      "value": "speakers",
+                    },
+                    Object {
+                      "label": "Attendies",
+                      "value": "attendies",
+                    },
+                    Object {
+                      "label": "Moderators",
+                      "value": "moderators",
+                    },
+                  ]
+                }
+                pageSize={5}
+                placeholder="Select groups"
+                required={false}
+                scrollMenuIntoView={true}
+                searchable={true}
+                simpleValue={false}
+                tabSelectsValue={true}
+                value="speakers"
+                valueComponent={[Function]}
+                valueKey="value"
+                valueRenderer={[Function]}>
+                <div
+                  className="Select ccIWcp fUPKPg Select--single is-searchable has-value">
+                  <div
+                    className="Select-control"
+                    onKeyDown={[Function]}
+                    onMouseDown={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}>
+                    <span
+                      className="Select-multi-value-wrapper"
+                      id="react-select-3--value">
+                      <Value
+                        disabled={false}
+                        id="react-select-3--value-item"
+                        instancePrefix="react-select-3-"
+                        onClick={null}
+                        value={
+                          Object {
+                            "label": "Speakers",
+                            "value": "speakers",
+                          }
+                        }>
+                        <div
+                          className="Select-value">
+                          <span
+                            aria-selected="true"
+                            className="Select-value-label"
+                            id="react-select-3--value-item"
+                            role="option">
+                            <div
+                              style={
+                                Object {
+                                  "alignItems": "center",
+                                  "display": "inline-flex",
+                                  "fontFamily": "Roboto Condensed",
+                                }
+                              }>
+                              <div
+                                style={
+                                  Object {
+                                    "fontSize": "16px",
+                                  }
+                                }>
+                                Speakers
+                              </div>
+                            </div>
+                          </span>
+                        </div>
+                      </Value>
+                      <AutosizeInput
+                        aria-activedescendant="react-select-3--value"
+                        aria-expanded="false"
+                        aria-haspopup="false"
+                        aria-owns=""
+                        className="Select-input"
+                        minWidth="5"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        required={false}
+                        role="combobox"
+                        value="">
+                        <div
+                          className="Select-input"
+                          style={
+                            Object {
+                              "display": "inline-block",
+                            }
+                          }>
+                          <input
+                            aria-activedescendant="react-select-3--value"
+                            aria-expanded="false"
+                            aria-haspopup="false"
+                            aria-owns=""
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            required={false}
+                            role="combobox"
+                            style={
+                              Object {
+                                "boxSizing": "content-box",
+                                "width": "5px",
+                              }
+                            }
+                            value="" />
+                          <div
+                            style={
+                              Object {
+                                "height": 0,
+                                "left": 0,
+                                "overflow": "scroll",
+                                "position": "absolute",
+                                "top": 0,
+                                "visibility": "hidden",
+                                "whiteSpace": "pre",
+                              }
+                            } />
+                        </div>
+                      </AutosizeInput>
+                    </span>
+                    <span
+                      aria-label="Clear value"
+                      className="Select-clear-zone"
+                      onMouseDown={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      title="Clear value">
+                      <span
+                        className="Select-clear"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&times;",
+                          }
+                        } />
+                    </span>
+                    <span
+                      className="Select-arrow-zone"
+                      onMouseDown={[Function]}>
+                      <span
+                        className="Select-arrow"
+                        onMouseDown={[Function]} />
+                    </span>
+                  </div>
+                </div>
+              </Select>
+            </Styled(Select)>
+          </Select>
+        </Styled(Select)>
+      </div>
+    </styled.div>
+  </WrapperLabel>
+</SelectField>
+`;
