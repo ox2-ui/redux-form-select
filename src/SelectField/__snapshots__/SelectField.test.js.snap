@@ -44,7 +44,7 @@ exports[`test renders correctly 1`] = `
     placeholder="Select groups"
     value="speakers">
     <Select
-      className="eHKbKP"
+      className="boQsxg"
       onUpdate={[Function]}
       options={
         Array [
@@ -65,7 +65,7 @@ exports[`test renders correctly 1`] = `
       placeholder="Select groups"
       value="speakers">
       <Styled(Select)
-        className="eHKbKP"
+        className="boQsxg"
         onChange={[Function]}
         onUpdate={[Function]}
         optionRenderer={[Function]}
@@ -94,7 +94,7 @@ exports[`test renders correctly 1`] = `
           autosize={true}
           backspaceRemoves={true}
           backspaceToRemoveMessage="Press backspace to remove {label}"
-          className="eHKbKP fUPKPg"
+          className="boQsxg fUPKPg"
           clearAllText="Clear all"
           clearRenderer={[Function]}
           clearValueText="Clear value"
@@ -151,7 +151,7 @@ exports[`test renders correctly 1`] = `
           valueKey="value"
           valueRenderer={[Function]}>
           <div
-            className="Select eHKbKP fUPKPg Select--single is-searchable has-value">
+            className="Select boQsxg fUPKPg Select--single is-searchable has-value">
             <div
               className="Select-control"
               onKeyDown={[Function]}
