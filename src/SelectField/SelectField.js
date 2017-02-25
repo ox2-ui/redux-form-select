@@ -6,7 +6,7 @@ import WrapperLabel from '@ox2/ui/WrapperLabel';
  */
 const SelectField = ({ input, label, placeholder, ...custom }) => {
   return (
-    <WrapperLabel text={label}>
+    <WrapperLabel text={label || ''}>
       <Select
         placeholder={placeholder || ''}
         value={input.value}
@@ -19,7 +19,7 @@ const SelectField = ({ input, label, placeholder, ...custom }) => {
 
 SelectField.propTypes = {
   input: PropTypes.object.isRequired,
-  label: PropTypes.string.isRequired,
+  label: PropTypes.string,
   placeholder: PropTypes.string,
 };
 
