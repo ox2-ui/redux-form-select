@@ -136,9 +136,9 @@
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@ox2/scroller/-/scroller-1.2.0.tgz#dc7160200512d2fe1a9a8171f2219dc58102baab"
 
-"@ox2/select@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@ox2/select/-/select-5.0.0.tgz#245d5589a4fa946f59e79ff3fc5d73852472cd16"
+"@ox2/select@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@ox2/select/-/select-5.0.1.tgz#8e8d876d1672e37b2df9f132c7af5af1b4df755c"
   dependencies:
     "@ox2/icon" "^1.0.0"
     "@ox2/ui" "^0.21.0"

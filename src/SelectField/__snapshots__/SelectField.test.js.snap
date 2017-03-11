@@ -210,7 +210,6 @@ exports[`renders correctly 1`] = `
                                 Object {
                                   "alignItems": "center",
                                   "display": "inline-flex",
-                                  "fontFamily": "Roboto Condensed",
                                 }
                               }
                             >
@@ -535,7 +534,6 @@ exports[`renders with label 1`] = `
                                 Object {
                                   "alignItems": "center",
                                   "display": "inline-flex",
-                                  "fontFamily": "Roboto Condensed",
                                 }
                               }
                             >
