@@ -21,6 +21,14 @@ storiesOf('SelectField', module)
       placeholder={'Select groups'}
     />
   ))
+  .add('with label', () => (
+    <SelectField
+      input={input}
+      label={'My label'}
+      options={Groups}
+      placeholder={'Select groups'}
+    />
+  ))
   .add('multi', () => (
     <SelectField
       input={input}

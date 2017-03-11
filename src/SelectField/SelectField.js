@@ -7,7 +7,7 @@ import WrapperLabel from '@ox2/forms/WrapperLabel';
  */
 const SelectField = ({ input, label, placeholder, ...custom }) => {
   return (
-    <WrapperLabel text={label || ''}>
+    <WrapperLabel style={{paddingBottom: '3px'}} text={label || ''}>
       <Select
         onUpdate={(value) => input.onChange(value)}
         placeholder={placeholder || ''}

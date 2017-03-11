@@ -107,9 +107,9 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@ox2/button/-/button-1.0.0.tgz#111e4d9ca2eea56f8e467de6b059ec3db2f67a66"
 
-"@ox2/forms@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@ox2/forms/-/forms-0.1.0.tgz#b4ce51652cdac9e30ca55ffa46f672f8dde6f8f5"
+"@ox2/forms@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@ox2/forms/-/forms-0.1.2.tgz#3444a4eb3407d00af6fc3a669a853ded2daf0fa6"
   dependencies:
     "@ox2/button" "^1.0.0"
     "@ox2/scroller" "^1.2.0"
@@ -136,9 +136,9 @@
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@ox2/scroller/-/scroller-1.2.0.tgz#dc7160200512d2fe1a9a8171f2219dc58102baab"
 
-"@ox2/select@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@ox2/select/-/select-5.0.1.tgz#8e8d876d1672e37b2df9f132c7af5af1b4df755c"
+"@ox2/select@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@ox2/select/-/select-5.0.2.tgz#7eff4fb590556a9612071ad685f975e46eeaa538"
   dependencies:
     "@ox2/icon" "^1.0.0"
     "@ox2/ui" "^0.21.0"
@@ -6049,20 +6049,7 @@ style-loader@0.13.1:
   dependencies:
     loader-utils "^0.2.7"
 
-styled-components@^1.4.3:
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-1.4.3.tgz#83fa44e553882aaa3ddc4363ccc435814d690706"
-  dependencies:
-    buffer "^5.0.2"
-    css-to-react-native "^1.0.6"
-    fbjs "^0.8.7"
-    glamor "^2.20.12"
-    inline-style-prefixer "^2.0.5"
-    is-function "^1.0.1"
-    is-plain-object "^2.0.1"
-    supports-color "^3.1.2"
-
-styled-components@^1.4.4:
+styled-components@^1.4.3, styled-components@^1.4.4:
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-1.4.4.tgz#c944de423d8ae2363f2ba4ff8fc26d367e7dfa8f"
   dependencies:

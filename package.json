@@ -56,8 +56,8 @@
     "npm": "^3.0.0"
   },
   "dependencies": {
-    "@ox2/forms": "^0.1.0",
-    "@ox2/select": "^5.0.1"
+    "@ox2/forms": "^0.1.2",
+    "@ox2/select": "^5.0.2"
   },
   "jest": {
     "roots": [
