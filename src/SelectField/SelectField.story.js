@@ -24,8 +24,8 @@ storiesOf('SelectField', module)
   .add('multi', () => (
     <SelectField
       input={input}
-      options={Groups}
       multi={true}
+      options={Groups}
       simpleValue={true}
     />
   ));

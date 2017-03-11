@@ -9,9 +9,9 @@ const SelectField = ({ input, label, placeholder, ...custom }) => {
   return (
     <WrapperLabel text={label || ''}>
       <Select
+        onUpdate={(value) => input.onChange(value)}
         placeholder={placeholder || ''}
         value={input.value}
-        onUpdate={(value) => input.onChange(value)}
         {...custom}
       />
     </WrapperLabel>
