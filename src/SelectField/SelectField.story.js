@@ -13,10 +13,21 @@ const input = {
   onChange: (value) => console.log('🍇', value), // eslint-disable-line no-console
 };
 
+const meta = {
+  touched: false,
+  error: '',
+};
+
+const metaError = {
+  touched: true,
+  error: 'invalid something',
+};
+
 storiesOf('SelectField', module)
   .add('single', () => (
     <SelectField
       input={input}
+      meta={meta}
       options={Groups}
       placeholder={'Select groups'}
     />
@@ -25,6 +36,16 @@ storiesOf('SelectField', module)
     <SelectField
       input={input}
       label={'My label'}
+      meta={meta}
+      options={Groups}
+      placeholder={'Select groups'}
+    />
+  ))
+  .add('with error', () => (
+    <SelectField
+      input={input}
+      label={'My label'}
+      meta={metaError}
       options={Groups}
       placeholder={'Select groups'}
     />
@@ -32,6 +53,7 @@ storiesOf('SelectField', module)
   .add('multi', () => (
     <SelectField
       input={input}
+      meta={meta}
       multi={true}
       options={Groups}
       simpleValue={true}
