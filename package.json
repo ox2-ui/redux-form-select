@@ -1,6 +1,6 @@
 {
   "name": "@ox2/redux-form-select",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Select component wrapper for redux-form.",
   "repository": {
     "type": "git",
