@@ -56,7 +56,7 @@
     "npm": "^3.0.0"
   },
   "dependencies": {
-    "@ox2/forms": "^0.2.1",
+    "@ox2/field-ui": "^0.0.1",
     "@ox2/select": "^5.1.1"
   },
   "jest": {

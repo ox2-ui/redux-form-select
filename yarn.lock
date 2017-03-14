@@ -111,14 +111,12 @@
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@ox2/colors/-/colors-0.0.1.tgz#bcdda3f8e24ccfdab5e93b276bb70860c496b43a"
 
-"@ox2/forms@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@ox2/forms/-/forms-0.2.1.tgz#8ad8cd4c5c9276e66aaf9405ea36dc4e9cd6b210"
+"@ox2/field-ui@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@ox2/field-ui/-/field-ui-0.0.1.tgz#302514e1a797c5c62dd9b703775dac4f33ba983d"
   dependencies:
-    "@ox2/button" "^1.0.0"
     "@ox2/colors" "^0.0.1"
-    "@ox2/scroller" "^1.2.0"
-    styled-components "^1.4.3"
+    styled-components "^1.4.4"
 
 "@ox2/icon@^1.0.0":
   version "1.0.0"

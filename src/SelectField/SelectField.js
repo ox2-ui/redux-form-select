@@ -1,14 +1,14 @@
 import React, { PropTypes } from 'react';
 import { default as Select } from '@ox2/select/SelectField';
-import WrapperLabel from '@ox2/forms/WrapperLabel';
-import ErrorLabel from '@ox2/forms/ErrorLabel';
+import WrapperLabel from '@ox2/field-ui/WrapperLabel';
+import ErrorLabel from '@ox2/field-ui/ErrorLabel';
 
 /**
  * SelectField Component
  */
 const SelectField = ({ input, label, meta: { touched, error }, placeholder, ...custom }) => {
   return (
-    <WrapperLabel style={{paddingBottom: '3px'}} text={label || ''}>
+    <WrapperLabel labelStyle={{paddingBottom: '3px'}} text={label || ''}>
       <Select
         hasError={touched && error ? true : false} // eslint-disable-line no-unneeded-ternary
         onUpdate={(value) => input.onChange(value)}

@@ -33,7 +33,7 @@ exports[`renders correctly 1`] = `
   placeholder="Select groups"
 >
   <WrapperLabel
-    style={
+    labelStyle={
       Object {
         "paddingBottom": "3px",
       }
@@ -44,22 +44,31 @@ exports[`renders correctly 1`] = `
       <div
         className="hgoCNT"
       >
-        <styled.div
+        <Label
           style={
             Object {
               "paddingBottom": "3px",
             }
           }
+          text=""
         >
-          <div
-            className="eFyCaC"
+          <styled.label
             style={
               Object {
                 "paddingBottom": "3px",
               }
             }
-          />
-        </styled.div>
+          >
+            <label
+              className="dHeZEs"
+              style={
+                Object {
+                  "paddingBottom": "3px",
+                }
+              }
+            />
+          </styled.label>
+        </Label>
         <Styled(Select)
           hasError={false}
           onUpdate={[Function]}
@@ -381,7 +390,7 @@ exports[`renders with error 1`] = `
   placeholder="Select groups"
 >
   <WrapperLabel
-    style={
+    labelStyle={
       Object {
         "paddingBottom": "3px",
       }
@@ -392,24 +401,33 @@ exports[`renders with error 1`] = `
       <div
         className="hgoCNT"
       >
-        <styled.div
+        <Label
           style={
             Object {
               "paddingBottom": "3px",
             }
           }
+          text="My label"
         >
-          <div
-            className="eFyCaC"
+          <styled.label
             style={
               Object {
                 "paddingBottom": "3px",
               }
             }
           >
-            My label
-          </div>
-        </styled.div>
+            <label
+              className="dHeZEs"
+              style={
+                Object {
+                  "paddingBottom": "3px",
+                }
+              }
+            >
+              My label
+            </label>
+          </styled.label>
+        </Label>
         <Styled(Select)
           hasError={true}
           onUpdate={[Function]}
@@ -758,7 +776,7 @@ exports[`renders with label 1`] = `
   placeholder="Select groups"
 >
   <WrapperLabel
-    style={
+    labelStyle={
       Object {
         "paddingBottom": "3px",
       }
@@ -769,24 +787,33 @@ exports[`renders with label 1`] = `
       <div
         className="hgoCNT"
       >
-        <styled.div
+        <Label
           style={
             Object {
               "paddingBottom": "3px",
             }
           }
+          text="My label"
         >
-          <div
-            className="eFyCaC"
+          <styled.label
             style={
               Object {
                 "paddingBottom": "3px",
               }
             }
           >
-            My label
-          </div>
-        </styled.div>
+            <label
+              className="dHeZEs"
+              style={
+                Object {
+                  "paddingBottom": "3px",
+                }
+              }
+            >
+              My label
+            </label>
+          </styled.label>
+        </Label>
         <Styled(Select)
           hasError={false}
           onUpdate={[Function]}
