@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@kadira/storybook": "^2.35.3",
-    "@kadira/storybook-addon-options": "^1.0.1",
+    "@kadira/storybook-addon-options": "^1.0.2",
     "@ox2/iframe": "^0.0.3",
     "babel-cli": "^6.24.0",
     "babel-core": "^6.24.0",
@@ -56,7 +56,7 @@
     "npm": "^3.0.0"
   },
   "dependencies": {
-    "@ox2/forms": "^0.2.0",
+    "@ox2/forms": "^0.2.1",
     "@ox2/select": "^5.1.1"
   },
   "jest": {
