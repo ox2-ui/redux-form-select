@@ -111,6 +111,10 @@
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@ox2/colors/-/colors-0.0.1.tgz#bcdda3f8e24ccfdab5e93b276bb70860c496b43a"
 
+"@ox2/colors@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@ox2/colors/-/colors-0.0.2.tgz#8ad1742ad17fadfe9b7c414cbf01bf13f01601f2"
+
 "@ox2/field-ui@^0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@ox2/field-ui/-/field-ui-0.0.1.tgz#302514e1a797c5c62dd9b703775dac4f33ba983d"
@@ -121,6 +125,12 @@
 "@ox2/icon@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@ox2/icon/-/icon-1.0.0.tgz#ea1ac6449dff6a27948c477a3d7b164a83828f42"
+  dependencies:
+    classnames "^2.2.5"
+
+"@ox2/icon@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@ox2/icon/-/icon-3.1.0.tgz#e97242a13a60105438ab12239a5f03334db90a0b"
   dependencies:
     classnames "^2.2.5"
 
@@ -139,12 +149,12 @@
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@ox2/scroller/-/scroller-1.2.0.tgz#dc7160200512d2fe1a9a8171f2219dc58102baab"
 
-"@ox2/select@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@ox2/select/-/select-5.1.1.tgz#ec83364c607a8424d707055ebc752ee280fa80b7"
+"@ox2/select@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@ox2/select/-/select-6.0.0.tgz#bd5a87cce898a83a82f56f1ddcbd92add1873993"
   dependencies:
-    "@ox2/colors" "^0.0.1"
-    "@ox2/icon" "^1.0.0"
+    "@ox2/colors" "^0.0.2"
+    "@ox2/icon" "^3.1.0"
     "@ox2/ui" "^0.21.0"
     react-select "^1.0.0-rc.2"
     styled-components "^1.4.4"

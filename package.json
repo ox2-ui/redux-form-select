@@ -57,7 +57,7 @@
   },
   "dependencies": {
     "@ox2/field-ui": "^0.0.1",
-    "@ox2/select": "^5.1.1"
+    "@ox2/select": "^6.0.0"
   },
   "jest": {
     "roots": [
