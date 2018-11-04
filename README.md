@@ -1,3 +1,5 @@
+### Package is no longer maintaned.
+
 # redux-form-select
 ![NPM version](https://img.shields.io/npm/v/@ox2/redux-form-select.svg?style=flat)
 
